@@ -1,0 +1,109 @@
+* {
+    overflow: hidden;
+}
+
+body {
+    background-image: url(Level_background.svg);
+    background-size: cover;
+    font-family: "Oswald";
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+#title {
+    font-family: "Oswald";
+    font-size: 200%;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+
+#board {
+    width: 300px;
+    height: 300px;
+    border: 10px solid #000000;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 32.7%;
+    height: 32.7%;
+    border: 1px solid #373737;
+}
+
+#full_img {
+    width: 300px;
+    height: 300px;
+    border: 10px solid #000000;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.instructions {
+    color: white;
+    font-size: 10px;
+    /* font-weight: bold; */
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+}
+
+#learn_more {
+    justify-content: center;
+}
+
+#learn_more a{
+    width: 300px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Oswald";
+    color: #bc122c;
+    border: none;
+    margin: 10px 0px 50px 0px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+#image {
+    margin: 10px;
+    width: 30vh;
+    box-shadow: -2px 10px 34px -9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 10px 34px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 10px 34px -9px rgba(0,0,0,0.75);
+}
+
+#head {
+    border-width: 10px;
+}
+
+#text_container {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    padding: 10px;
+    overflow: scroll;
+    height: 50vh;
+    width: 40vh;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
